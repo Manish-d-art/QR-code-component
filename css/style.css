@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.body-content {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* border: 10px solid; */
+    border-radius: 1.25rem;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 5.3125rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main {
+    width: 23.25rem;
+    margin: auto;
+}
+
+.scanner-img {
+    width: 20.875rem;
+    height: 18.75rem;
+    border-radius: 5%;
+    margin-top: 1.0625rem;
+}
+
+.img-block {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.text {
+    width: 15.625rem;
+    text-align: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1.875rem;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.ele-content-heading {
+    margin-bottom: 1.25rem;
+    background-color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.3rem;
+}
+
+.scanner-text {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+}
+
+.attribution {
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+}
+
+@media (max-width:375px) {
+    .body-content {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+
+@media (max-width:375px) {
+    .attribution {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+
+@media (max-width:375px) {
+    .scanner-img {
+        width: 17.875rem;
+        height: 17.75rem;
+        border-radius: 5%;
+        margin-top: 1.0625rem;
+    }
+}
